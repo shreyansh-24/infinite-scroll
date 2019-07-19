@@ -1,0 +1,509 @@
+body {
+  width: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100-vh {
+  height: 100vh;
+}
+
+.max-height-250px {
+  max-height: 250px;
+  overflow: auto;
+}
+
+.min-height-150px {
+  min-height: 150px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  background: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+.button {
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 28px;
+  white-space: nowrap;
+  min-width: 135px;
+  height: 28px;
+  font-weight: 500;
+  font-size: 12px;
+  flex-shrink: 0;
+  color: white;
+  background-color: #25292e;
+  user-select: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0px 25px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #25292e;
+  border-image: initial;
+  transition: all 0.2s ease 0s;
+  overflow: hidden;
+  outline: none;
+}
+.button:hover {
+  background: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.card-border {
+  border: 1px solid #999;
+  border-radius: 5px;
+  min-width: 250px;
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-rev {
+  flex-direction: column-reverse;
+}
+
+.flex-rev {
+  flex-direction: row-reverse;
+}
+
+.flex-just-center {
+  justify-content: center;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-just-start {
+  justify-content: flex-start;
+}
+
+.flex-just-end {
+  justify-content: flex-end;
+}
+
+.flex-align-start {
+  align-items: flex-start;
+}
+
+.flex-align-end {
+  align-items: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-rev {
+  flex-wrap: wrap-reverse;
+}
+
+.action-link {
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.action-link:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.margin-sm {
+  margin: 8px;
+}
+
+.margin-top-sm {
+  margin-top: 8px;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 8px;
+}
+
+.margin-left-sm {
+  margin-left: 8px;
+}
+
+.margin-right-sm {
+  margin-right: 8px;
+}
+
+.margin-md {
+  margin: 16px;
+}
+
+.margin-top-md {
+  margin-top: 16px;
+}
+
+.margin-bottom-md {
+  margin-bottom: 16px;
+}
+
+.margin-left-md {
+  margin-left: 16px;
+}
+
+.margin-right-md {
+  margin-right: 16px;
+}
+
+.margin-lg {
+  margin: 24px;
+}
+
+.margin-top-lg {
+  margin-top: 24px;
+}
+
+.margin-bottom-lg {
+  margin-bottom: 24px;
+}
+
+.margin-left-lg {
+  margin-left: 24px;
+}
+
+.margin-right-lg {
+  margin-right: 24px;
+}
+
+.padding-sm {
+  margin: 8px;
+}
+
+.padding-top-sm {
+  padding-top: 8px;
+}
+
+.padding-bottom-sm {
+  padding-bottom: 8px;
+}
+
+.padding-left-sm {
+  padding-left: 8px;
+}
+
+.padding-right-sm {
+  padding-right: 8px;
+}
+
+.padding-md {
+  margin: 16px;
+}
+
+.padding-top-md {
+  padding-top: 16px;
+}
+
+.padding-bottom-md {
+  padding-bottom: 16px;
+}
+
+.padding-left-md {
+  padding-left: 16px;
+}
+
+.padding-right-md {
+  padding-right: 16px;
+}
+
+.padding-lg {
+  margin: 24px;
+}
+
+.padding-top-lg {
+  padding-top: 24px;
+}
+
+.padding-bottom-lg {
+  padding-bottom: 24px;
+}
+
+.padding-left-lg {
+  padding-left: 24px;
+}
+
+.padding-right-lg {
+  padding-right: 24px;
+}
+
+.font-size-35 {
+  font-size: 35px;
+}
+
+.font-size-25 {
+  font-size: 25px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-14 {
+  font-size: 16px;
+}
+
+.primary-text {
+  color: #000;
+}
+
+.secondary-text {
+  color: #999;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: center;
+}
+
+
